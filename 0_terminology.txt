@@ -1,0 +1,6 @@
+- Anagram - from a word if we reshuffle those alphabets then it creates a new
+            word.
+            Example: listen - silent
+                     eat = ate
+
+
