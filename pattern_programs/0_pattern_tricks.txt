@@ -1,0 +1,11 @@
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+Step1. Run the outer for loop equivalent to number of rows we have.
+Step2. for inner loop - Identify the columns in each row, 
+       so for example - in above figure first row got one column, second row got two columns.
+       so, what we can conclude that number of rows = number of columns.
+Step3. What we need to print? in above pattern we need to print *
