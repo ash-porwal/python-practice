@@ -1,6 +1,12 @@
-- Anagram - from a word if we reshuffle those alphabets then it creates a new
+- Anagram: from a word if we reshuffle those alphabets then it creates a new
             word.
             Example: listen - silent
                      eat = ate
 
 
+- Builtin methods: Built-in functions are functions provided by Python 
+itself (like len() and max()), while methods are functions that belong to a 
+specific data type (like str.find() or list.sort()).
+
+- Palindrome: A palindrome is a word, number, or sequence that reads the same forward and backward.
+    Example: madam, level

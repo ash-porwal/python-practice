@@ -16,9 +16,4 @@ Explanation: "For" is present as substring in "GeeksForGeeks" from index 5 (0 ba
 txt = "GeeksForGeeks"
 pat = "For"
 
-val = -1
-for i in txt:
-    if pat[0] == i:
-        val = txt.index(i)
-print(val)
-    
+print(txt.find(pat))
