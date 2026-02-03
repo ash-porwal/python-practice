@@ -17,3 +17,14 @@ txt = "GeeksForGeeks"
 pat = "For"
 
 print(txt.find(pat))
+
+
+# way 2
+for i in txt:
+    if i == pat[0]:
+        idx = txt.index(i)
+        len_pat = len(pat)
+        # print(txt[idx: idx+len_pat])
+        if txt[idx: idx+len_pat] == pat:
+            print("pattern matched")
+            print(idx)

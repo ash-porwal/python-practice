@@ -10,3 +10,8 @@ specific data type (like str.find() or list.sort()).
 
 - Palindrome: A palindrome is a word, number, or sequence that reads the same forward and backward.
     Example: madam, level
+
+- Armstrong:  a number that equals the sum of its own digits, 
+                each raised to the power of the total number 
+                of digits in that number, 
+                such as 153 (\(1^{3}+5^{3}+3^{3} = 1+125+27 = 153)) 

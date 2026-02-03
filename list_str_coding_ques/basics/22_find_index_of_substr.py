@@ -1,11 +1,9 @@
 a = "ashishporwal"
 b = 'wal'
 
-m = len(a)
-n = len(b)
-
-_value = None          
-for i in range(m - n + 1):
-  if a[i:i+n] == b:
-    _value = i
-print(_value)
+for i in a:
+    if i==b[0]:
+        idx = a.index(i)
+        len_b = len(b)
+        if a[idx: idx+len_b] == b:
+            print(idx)
